@@ -1,4 +1,4 @@
-package dev.felipecisotto.aluno;
+package dev.felipecisotto.dominio.aluno;
 
 import java.util.InputMismatchException;
 
@@ -12,6 +12,10 @@ public class CPF {
             throw new IllegalArgumentException("CPF invalido");
         }
         this.documento = documentoSub;
+    }
+
+    public String getDocumento() {
+        return documento;
     }
 
     public static boolean isCPF(String CPF) {

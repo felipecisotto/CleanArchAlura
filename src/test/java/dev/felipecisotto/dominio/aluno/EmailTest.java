@@ -1,7 +1,6 @@
-package dev.felipecisotto.aluno;
+package dev.felipecisotto.dominio.aluno;
 
 
-import dev.felipecisotto.aluno.Email;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;

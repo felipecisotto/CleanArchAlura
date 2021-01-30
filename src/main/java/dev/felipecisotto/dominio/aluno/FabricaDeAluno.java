@@ -1,4 +1,4 @@
-package dev.felipecisotto.aluno;
+package dev.felipecisotto.dominio.aluno;
 
 public class FabricaDeAluno {
 

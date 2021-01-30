@@ -1,4 +1,4 @@
-package dev.felipecisotto.aluno;
+package dev.felipecisotto.dominio.aluno;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,21 +9,22 @@ public class Aluno {
     private String nome;
     private Email email;
     private List<Telefone> telefones = new ArrayList<>();
+    private String senha;
 
     public void adicionarTelefone(String ddd, String numero){
         this.telefones.add(new Telefone(ddd,numero));
     }
 
-    public CPF getCpf() {
-        return cpf;
+    public String getCpf() {
+        return cpf.getDocumento();
     }
 
     public String getNome() {
         return nome;
     }
 
-    public Email getEmail() {
-        return email;
+    public String getEmail() {
+        return email.getEndereco();
     }
 
     public List<Telefone> getTelefones() {

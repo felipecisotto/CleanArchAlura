@@ -1,10 +1,18 @@
-package dev.felipecisotto.aluno;
+package dev.felipecisotto.dominio.aluno;
 
 import java.util.regex.Pattern;
 
 public class Telefone {
     private String ddd;
     private String numero;
+
+    public String getDdd() {
+        return ddd;
+    }
+
+    public String getNumero() {
+        return numero;
+    }
 
     public Telefone(String ddd, String numero) {
         if(ddd == null || !Pattern.matches("[0-9]+",ddd)||ddd.length() != 2){
@@ -15,5 +23,6 @@ public class Telefone {
         }
         this.ddd = ddd;
         this.numero = numero;
+
     }
 }

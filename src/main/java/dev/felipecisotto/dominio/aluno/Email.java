@@ -1,4 +1,4 @@
-package dev.felipecisotto.aluno;
+package dev.felipecisotto.dominio.aluno;
 
 public class Email {
 
@@ -12,4 +12,7 @@ public class Email {
         this.endereco = endereco;
     }
 
+    public String getEndereco() {
+        return endereco;
+    }
 }

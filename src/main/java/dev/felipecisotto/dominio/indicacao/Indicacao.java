@@ -1,6 +1,6 @@
-package dev.felipecisotto.indicacao;
+package dev.felipecisotto.dominio.indicacao;
 
-import dev.felipecisotto.aluno.Aluno;
+import dev.felipecisotto.dominio.aluno.Aluno;
 
 import java.time.LocalDateTime;
 
